@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="do_task">Do Task</string>
+    <string name="phone_name_placeholder">Phone name</string>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/d576d51e6204ab61d5bc60fe7b53cd156af8e1ea/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_5d710715dda4ddd0bb17cf5c2e9ac1bff614e314.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/2407bbfd7a4fcf8059bfa53f9439dfe3708b5144/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_5e6e94ef0cd737bb4ce76ca9f78e47ec35b00634.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/00c339ee6869ba8369c07ae8ef7640ef98f95803/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_667b2f013dd500697246825c1c8a27212eae7dce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/cc3c8c23caae6be27e06c3465265489a288760ff/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_fdab0992faabfe266ff6fbea913d0bd731a29be5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/a63c1b0f9de28789ac5136a00b0a53516c0e9a51/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_f54bb091d8c47741ed16ad91fdb2084dc68d9b6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/6391844b5c664d5ce24821f36d680b0013e9af5e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_c9a390e3624ca73a7755e9e5550d36fd48bcb21f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/a63c1b0f9de28789ac5136a00b0a53516c0e9a51/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0d1325f4e4ffcb9a62afee77a8ea193f85c2aa3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/6391844b5c664d5ce24821f36d680b0013e9af5e/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2c9b984467cc2fab92edf5cbfbbf9d2ed9476765.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/86e0ec210eb21be81bb66c2e7bdad1d89b6f5e68/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ca8691787952c484b8a768a9160239a962d3b3da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/8923e1167ccb70e2761764a9831b075332179569/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_216f88d8c268bccd490e9f6bb3431eaf0f604c3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/9129b5d02d2e5aef1e53cdf79f73cb41b3902f3a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e753ea8d0a2dea270da7d96a7d6e9d2e9c10f94">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_5c8442429763c5216826b23a1949d53c3d66f855.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/967ddaecd3de0f1aae14ff21f1ccedf35adbf45e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_67eca86a46971218f3e337a0f30101d0b2a66d15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha8/constraint-layout-solver-1.0.0-alpha8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="80c371a4fd5e1b77f0e3a25b171356878543ffdd">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha8_216d34d5eaaab750a5eab0e5bde544c870d48186.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/967ddaecd3de0f1aae14ff21f1ccedf35adbf45e/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_c2c1c6f2c21f8c38445371d288e4e47f8495ccf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/86e0ec210eb21be81bb66c2e7bdad1d89b6f5e68/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/classes_e1b878886566f73cd2930c89c335a018f2feaf49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/include/.android/build-cache/00c339ee6869ba8369c07ae8ef7640ef98f95803/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/include/Downloads/PBM Pak Kur/Tugas/AsyncTask/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_518822388eda2f18e210c907d8a50a9e071acdd7.jar" />
+    </item>
+
+</items>
