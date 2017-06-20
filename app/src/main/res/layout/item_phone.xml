@@ -1,24 +1,41 @@
 <?xml version="10" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
 
-    <ImageView
-        android:id="@+id/imageView1"
+    <RelativeLayout
+        android:id="@+id/imageLayout"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:contentDescription="@string/phone_name_placeholder"/>
+        android:layout_marginBottom="10dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/phone_name_placeholder"/>
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageLayout"
         android:layout_centerVertical="true"
         android:text="@string/phone_name_placeholder"
         android:textAppearance="?android:attr/textAppearanceLarge" />

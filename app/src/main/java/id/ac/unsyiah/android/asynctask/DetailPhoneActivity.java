@@ -6,7 +6,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.io.InputStream;
@@ -15,6 +17,7 @@ import java.net.URL;
 public class DetailPhoneActivity extends Activity {
     private ImageView photo;
     private TextView productName, category, price, description;
+    private ProgressBar pb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,7 @@ public class DetailPhoneActivity extends Activity {
         category = (TextView) findViewById(R.id.category);
         price = (TextView) findViewById(R.id.price);
         description = (TextView) findViewById(R.id.description);
+        pb = (ProgressBar)findViewById(R.id.progressBar);
 
         productName.setText(productNameStr);
         category.setText(categoryStr);
@@ -66,6 +70,7 @@ public class DetailPhoneActivity extends Activity {
 
         @Override
         protected void onPostExecute(Bitmap result) {
+            pb.setVisibility(View.INVISIBLE);
             photo.setImageBitmap(result);
         }
     }

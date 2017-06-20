@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.io.InputStream;
@@ -26,6 +27,7 @@ public class PhoneAdapter extends ArrayAdapter<SmartPhone> {
     private Context context;
     private List<SmartPhone> phoneList;
     private LruCache<Integer, Bitmap> imageCache;
+    private ProgressBar pb;
 
     public PhoneAdapter(Context context, int resource, List<SmartPhone> objects) {
         super(context, resource, objects);
@@ -42,6 +44,8 @@ public class PhoneAdapter extends ArrayAdapter<SmartPhone> {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.item_phone, parent, false);
 
+        pb = (ProgressBar)view.findViewById(R.id.progressBar);
+
         //Display phone name in the TextView widget
         final SmartPhone smartPhone = phoneList.get(position);
         TextView tv = (TextView) view.findViewById(R.id.textView1);
@@ -52,11 +56,13 @@ public class PhoneAdapter extends ArrayAdapter<SmartPhone> {
         if (bitmap != null){
             ImageView image = (ImageView) view.findViewById(R.id.imageView1);
             image.setImageBitmap(smartPhone.getBitmap());
+            pb.setVisibility(View.INVISIBLE);
         }else {
             PhoneAndView container = new PhoneAndView();
             container.phone = smartPhone;
             container.view = view;
 
+            pb.setVisibility(View.VISIBLE);
             ImageLoader loader = new ImageLoader();
             loader.execute(container);
         }
@@ -101,6 +107,7 @@ public class PhoneAdapter extends ArrayAdapter<SmartPhone> {
             image.setImageBitmap(result.bitmap);
             //result.phone.setBitmap(result.bitmap);
             imageCache.put(result.phone.getProductId(), result.bitmap);
+            pb.setVisibility(View.INVISIBLE);
         }
     }
 
